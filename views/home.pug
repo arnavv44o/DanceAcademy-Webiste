@@ -1,0 +1,24 @@
+extends base.pug
+
+block scripts  
+    script('/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#intro 
+          div  Welcome to Arnav Dance Academy
+          div  Eat Sleep Dance Reapet
+    section#mission
+          h2 Mission
+          div.card
+             p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, quas!
+          div.card
+             p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, quas!
+          div.card
+             p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, quas!
+    section#sponsor 
+          h2 Our Sponsors
+    

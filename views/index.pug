@@ -1,0 +1,34 @@
+//- index.pug
+doctype html
+html
+  head
+    title Arnav Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/Dance-PNG.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#intro 
+          div  Welcome to Arnav Dance Academy
+          div  Eat Sleep Dance Reapet
+    section#mission
+          h2 Mission
+          div.card
+             p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, quas!
+          div.card
+             p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, quas!
+          div.card
+             p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, quas!
+    section#sponsor 
+          h2 Our Sponsors
+    footer#footer 
+          | Copyright 2023 All Right Reserved  
+    script
+      include ../static/index.js
